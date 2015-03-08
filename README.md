@@ -27,4 +27,8 @@
 		app.js
 		app.css
 		logo.png
+###构建可用的离线应用
+	（1）离线清单可以包含多种头区域，例如CACHE: FALLBACK: NETWORK:三种等；
+	（2）更新缓存的文件，需要通过修改清单文件，让浏览器去加载新的文件，这个过程中可以监听applicationCache
+	 的onupdateready事件来给用户提醒和页面重新载入事件。
 		
